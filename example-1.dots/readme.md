@@ -1,0 +1,1 @@
+bootstraped with [browsersync, stypescript, yarn](https://github.com/BrowserSync/recipes/tree/master/recipes/webpack.typescript)
