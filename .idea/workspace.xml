@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7f1d391-39bd-4119-8628-44ed8bfd6ecd" name="Default Changelist" comment="get base canvas dots fly in rect animation">
-      <change afterPath="$PROJECT_DIR$/example-1.dots/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-1.dots/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-1.dots/app/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-1.dots/desc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-1.dots/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-1.dots/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-1.dots/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-1.dots/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-1.dots/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-1.dots/yarn.lock" afterDir="false" />
+    <list default="true" id="a7f1d391-39bd-4119-8628-44ed8bfd6ecd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example-1.dots/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/example-1.dots/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +33,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/example-1.dots" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\al3x\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\203.5981.135\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="D:\Projects\Canvas-webgl-experiments\example-1.dots\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -81,7 +73,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607780451932</updated>
-      <workItem from="1607780453044" duration="4082000" />
+      <workItem from="1607780453044" duration="4744000" />
+      <workItem from="1607869089499" duration="4178000" />
+      <workItem from="1607883838353" duration="1123000" />
+      <workItem from="1607915446422" duration="827000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607780553457</created>
@@ -90,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607780553457</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="get base canvas dots fly in rect animation">
+      <created>1607787436801</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607787436801</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +100,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/example-1.dots/bs-recipes" />
+    </ignored-roots>
     <MESSAGE value="init" />
     <MESSAGE value="get base canvas dots fly in rect animation" />
     <option name="LAST_COMMIT_MESSAGE" value="get base canvas dots fly in rect animation" />

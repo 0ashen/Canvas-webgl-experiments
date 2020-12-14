@@ -6,13 +6,22 @@ let amount = 200; // количество точек
 let speedMax = 1; // максимальная скорость точек
 let line = 50; // размер лини между точками
 
-function Dot(w, h, speedMax) { // конструктор объекта(точки)
-    this.x = getRandomInt(0, w);
-    this.y = getRandomInt(0, h);
-    this.speed = getRandomInt(1, speedMax) / 1;
-    this.dx = getRandomInt(-this.speed, this.speed);
-    this.dy = getRandomInt(-this.speed, this.speed);
-    this.rad = getRandomInt(1, 3);
+class Dot {
+    private x: number;
+    private y: number;
+    private speed: number;
+    private dx: number;
+    private dy: number;
+    private rad: number;
+
+    constructor(w, h, speedMax) { // конструктор объекта(точки)
+        this.x = getRandomInt(0, w);
+        this.y = getRandomInt(0, h);
+        this.speed = getRandomInt(1, speedMax) / 1;
+        this.dx = getRandomInt(-this.speed, this.speed);
+        this.dy = getRandomInt(-this.speed, this.speed);
+        this.rad = getRandomInt(1, 3);
+    }
 }
 
 let dots = []; // создаем массив
@@ -20,7 +29,6 @@ let dots = []; // создаем массив
 for (let i = 0; i < amount; i++) { // добавляем в массив объекты(точки) через конструктор
     dots.push(new Dot(w, h, speedMax));
 }
-
 function drawline() { // рисуем линии между точками
     dots.forEach(function (item) { // перебираем массив объектов
         dots.forEach(function (item2) { // еще раз перебираем массив объектов
@@ -35,31 +43,31 @@ function drawline() { // рисуем линии между точками
     });
 }
 
-function drawDots() { // рисуем точки
-    dots.forEach(function (item) {
-        if (item.x >= w) item.dx = -item.speed; // ограничиваем полет
-        if (item.x <= 0) item.dx = item.speed;
-        if (item.y >= h) item.dy = -item.speed;
-        if (item.y <= 0) item.dy = item.speed;
-        item.x += item.dx;
-        item.y += item.dy;
+function drawDots(): void { // рисуем точки
+    dots.forEach(function (dot) {
+        if (dot.x >= w) dot.dx = -dot.speed; // ограничиваем полет
+        if (dot.x <= 0) dot.dx = dot.speed;
+        if (dot.y >= h) dot.dy = -dot.speed;
+        if (dot.y <= 0) dot.dy = dot.speed;
+        dot.x += dot.dx;
+        dot.y += dot.dy;
         ctx.fillStyle = "#999"; // цвет точки
         ctx.beginPath();
-        ctx.arc(item.x, item.y, item.rad, 0, Math.PI * 2);
+        ctx.arc(dot.x, dot.y, dot.rad, 0, Math.PI * 2);
         ctx.fill();
     });
 }
 
-function draw() { // рисуем холст
+function draw(): void { // рисуем холст
     requestAnimationFrame(draw);
     ctx.clearRect(0, 0, w, h);
     drawDots();
-    drawline();
+    // drawline();
 }
 
 draw();
 
-function getRandomInt(min, max) {
+function getRandomInt(min: number, max: number): number {
     const rand = min + Math.random() * (max + 1 - min);
     return rand;
 }
