@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7f1d391-39bd-4119-8628-44ed8bfd6ecd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example-1.dots-random-moving/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-2.mario/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-2.mario/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-2.mario/desc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-2.mario/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-2.mario/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-2.mario/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-2.mario/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-2.mario/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-2.mario/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-1.dots/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/example-1.dots-random-moving/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-1.dots/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/example-1.dots-random-moving/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-1.dots/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/example-1.dots-random-moving/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-1.dots/desc.md" beforeDir="false" afterPath="$PROJECT_DIR$/example-1.dots-random-moving/desc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-1.dots/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/example-1.dots-random-moving/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-1.dots/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/example-1.dots-random-moving/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-1.dots/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-1.dots/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/example-1.dots-random-moving/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-1.dots/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/example-1.dots-random-moving/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-1.dots/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example-1.dots-random-moving/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,22 +40,44 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/example-2.mario" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="ts.external.directory.path" value="D:\Projects\Canvas-webgl-experiments\example-1.dots\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\Projects\Canvas-webgl-experiments\example-1.dots-random-moving\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Canvas-webgl-experiments\example-2.mario" />
+      <recent name="D:\Projects\Canvas-webgl-experiments" />
       <recent name="D:\Projects\Canvas-webgl-experiments\example-1.dots" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\Canvas-webgl-experiments\example-1.dots\src" />
       <recent name="D:\Projects\Canvas-webgl-experiments" />
+      <recent name="D:\Projects\Canvas-webgl-experiments\example-1.dots\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/example-1.dots-random-moving/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/example-2.mario/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/example-1.dots/package.json" />
       <command value="run" />
@@ -70,6 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start (2)" />
+        <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -86,6 +108,9 @@
       <workItem from="1607869089499" duration="4178000" />
       <workItem from="1607883838353" duration="1123000" />
       <workItem from="1607915446422" duration="1734000" />
+      <workItem from="1607917209191" duration="1428000" />
+      <workItem from="1607950157023" duration="113000" />
+      <workItem from="1608340999558" duration="685000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607780553457</created>
@@ -108,11 +133,29 @@
       <option name="project" value="LOCAL" />
       <updated>1607916307263</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor">
+      <created>1607917252634</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607917252634</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -122,6 +165,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="get base canvas dots fly in rect animation" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
 </project>
