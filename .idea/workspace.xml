@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7f1d391-39bd-4119-8628-44ed8bfd6ecd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-2.mario/src/main.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-2.mario/app/static/background_scene.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-2.mario/app/static/sprite.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-2.mario/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/example-2.mario/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example-2.mario/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/example-2.mario/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example-2.mario/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/example-2.mario/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-2.mario/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example-2.mario/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,7 @@
       <workItem from="1608340999558" duration="1828000" />
       <workItem from="1608342860783" duration="1071000" />
       <workItem from="1608343951892" duration="63000" />
-      <workItem from="1608344026198" duration="1403000" />
+      <workItem from="1608344026198" duration="3452000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607780553457</created>
@@ -149,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608341738266</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add basic moving">
+      <created>1608345462339</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608345462339</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +182,8 @@
     <MESSAGE value="fix" />
     <MESSAGE value="refactor" />
     <MESSAGE value="initial template mario game" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial template mario game" />
+    <MESSAGE value="add basic moving" />
+    <option name="LAST_COMMIT_MESSAGE" value="add basic moving" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -3,8 +3,8 @@ import {InitialMarioConfig, KeyArrowDirections} from "./main.interface";
 // setup
 const canvasHtmlNode: HTMLCanvasElement = document.querySelector('#canvas') as HTMLCanvasElement,
     ctx: CanvasRenderingContext2D = canvasHtmlNode.getContext("2d"),
-    canvasWidth: number = canvasHtmlNode.width = 900,
-    canvasHeight: number = canvasHtmlNode.height = 500;
+    canvasWidth: number = canvasHtmlNode.width = 300,
+    canvasHeight: number = canvasHtmlNode.height = 224;
 
 class MarioSingleton {
     private static instance: MarioSingleton;
@@ -69,7 +69,6 @@ class MarioSingleton {
     }
 }
 
-console.log(canvasWidth)
 const initialMarioConfig: InitialMarioConfig = {
     ctx,
     posX: canvasWidth / 2,
@@ -81,6 +80,15 @@ const initialMarioConfig: InitialMarioConfig = {
 function draw(): void {
     requestAnimationFrame(draw);
     ctx.clearRect(0, 0, canvasWidth, canvasHeight);
+
+    // background
+    ctx.fillStyle = "#5e96fe";
+    ctx.beginPath();
+    ctx.rect(0, 0, canvasWidth, canvasHeight);
+    ctx.fill();
+
+
+    // mario
     MarioSingleton.getInstance(initialMarioConfig).draw();
 }
 
