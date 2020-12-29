@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7f1d391-39bd-4119-8628-44ed8bfd6ecd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example-2.mario/app/static/background_scene.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-2.mario/app/static/sprite.gif" afterDir="false" />
+    <list default="true" id="a7f1d391-39bd-4119-8628-44ed8bfd6ecd" name="Default Changelist" comment=":: svelte template viewer ::&#10;initial svelte template">
+      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/public/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/public/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/rollup.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/scripts/setupTypeScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/src/App.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/src/_layout.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/src/style/global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/src/style/theme.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-2.mario/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/example-2.mario/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-2.mario/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/example-2.mario/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/example-2.mario" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../_third-party-open-source/HitUP" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
     <property name="ts.external.directory.path" value="D:\Projects\Canvas-webgl-experiments\example-2.mario\node_modules\typescript\lib" />
@@ -55,6 +65,16 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-canvas-viewer/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/example-1.dots-random-moving/package.json" />
       <command value="run" />
@@ -87,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start (2)" />
         <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.start" />
@@ -110,7 +131,11 @@
       <workItem from="1608340999558" duration="1828000" />
       <workItem from="1608342860783" duration="1071000" />
       <workItem from="1608343951892" duration="63000" />
-      <workItem from="1608344026198" duration="3452000" />
+      <workItem from="1608344026198" duration="3847000" />
+      <workItem from="1608351234766" duration="41000" />
+      <workItem from="1608418507691" duration="27000" />
+      <workItem from="1609267377748" duration="596000" />
+      <workItem from="1609272407796" duration="2973000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607780553457</created>
@@ -154,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608345462339</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add background">
+      <created>1608349681409</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608349681409</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +215,9 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="initial template mario game" />
     <MESSAGE value="add basic moving" />
-    <option name="LAST_COMMIT_MESSAGE" value="add basic moving" />
+    <MESSAGE value="add background" />
+    <MESSAGE value=":: svelte template viewer ::&#10;initial svelte template" />
+    <option name="LAST_COMMIT_MESSAGE" value=":: svelte template viewer ::&#10;initial svelte template" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
