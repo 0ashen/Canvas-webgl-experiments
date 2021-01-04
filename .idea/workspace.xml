@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7f1d391-39bd-4119-8628-44ed8bfd6ecd" name="Default Changelist" comment=":: svelte template viewer ::&#10;initial svelte template">
-      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/public/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/public/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/rollup.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/scripts/setupTypeScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/src/App.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/src/_layout.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/src/style/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-canvas-viewer/src/style/theme.scss" afterDir="false" />
+    <list default="true" id="a7f1d391-39bd-4119-8628-44ed8bfd6ecd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +121,8 @@
       <workItem from="1608351234766" duration="41000" />
       <workItem from="1608418507691" duration="27000" />
       <workItem from="1609267377748" duration="596000" />
-      <workItem from="1609272407796" duration="2973000" />
+      <workItem from="1609272407796" duration="3444000" />
+      <workItem from="1609322497660" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607780553457</created>
@@ -186,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608349681409</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=":: svelte template viewer ::&#10;initial svelte template">
+      <created>1609275423598</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609275423598</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
