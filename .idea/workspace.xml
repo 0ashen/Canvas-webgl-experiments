@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7f1d391-39bd-4119-8628-44ed8bfd6ecd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/3.points-located-in-a-circle/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.points-located-in-a-circle/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.points-located-in-a-circle/desc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.points-located-in-a-circle/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.points-located-in-a-circle/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.points-located-in-a-circle/src/main.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.points-located-in-a-circle/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.points-located-in-a-circle/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.points-located-in-a-circle/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.points-located-in-a-circle/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,14 +43,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../_third-party-open-source/HitUP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/3.points-located-in-a-circle" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="ts.external.directory.path" value="D:\Projects\Canvas-webgl-experiments\example-2.mario\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\al3x\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\203.5981.135\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Canvas-webgl-experiments\3.points-located-in-a-circle" />
       <recent name="D:\Projects\Canvas-webgl-experiments\example-2.mario" />
       <recent name="D:\Projects\Canvas-webgl-experiments" />
       <recent name="D:\Projects\Canvas-webgl-experiments\example-1.dots" />
@@ -81,6 +92,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start (3)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/3.points-located-in-a-circle/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/example-1.dots/package.json" />
       <command value="run" />
@@ -93,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start (3)" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.start (2)" />
         <item itemvalue="npm.start (1)" />
@@ -123,6 +145,8 @@
       <workItem from="1609267377748" duration="596000" />
       <workItem from="1609272407796" duration="3444000" />
       <workItem from="1609322497660" duration="62000" />
+      <workItem from="1609780211710" duration="3279000" />
+      <workItem from="1609844616363" duration="11821000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607780553457</created>
@@ -180,7 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609275423598</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactoring">
+      <created>1609780286790</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609780286790</updated>
+    </task>
+    <task id="LOCAL-00010" summary="refactoring">
+      <created>1609780298900</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609780298900</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +249,8 @@
     <MESSAGE value="add basic moving" />
     <MESSAGE value="add background" />
     <MESSAGE value=":: svelte template viewer ::&#10;initial svelte template" />
-    <option name="LAST_COMMIT_MESSAGE" value=":: svelte template viewer ::&#10;initial svelte template" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
