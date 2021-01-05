@@ -1,36 +1,62 @@
 // setup
 const canvasHtmlNode: HTMLCanvasElement = document.querySelector('#canvas'),
     ctx: CanvasRenderingContext2D = canvasHtmlNode.getContext("2d"),
-    canvasWidth: number = canvasHtmlNode.width = 600,
-    canvasHeight: number = canvasHtmlNode.height = 600;
+    canvasWidth: number = canvasHtmlNode.width = 300,
+    canvasHeight: number = canvasHtmlNode.height = 300;
 
-const cursorPos: { x: number, y: number } = {
+type ICursorPos = { x: number, y: number }
+const GLOBAL_CURSOR_POS: ICursorPos = {
     x: 0,
     y: 0
 }
 document.querySelector('body').addEventListener('mousemove', (event: MouseEvent): void => {
-
-    console.log(event.offsetX, event.offsetY)
-
-    canvasHtmlNode.offsetTop
-    canvasHtmlNode.offsetLeft
+    GLOBAL_CURSOR_POS.y = event.clientY;
+    GLOBAL_CURSOR_POS.x = event.clientX;
+    // console.log(
+    //     event.clientX,
+    //     event.offsetX,
+    //     event.pageX,
+    // )
 
 });
 
 class Dot {
     private currentX: number;
     private currentY: number;
+    private currentColor: string;
 
     constructor(private originalX: number,
                 private originalY: number,
                 private radius: number,
-                private ctx: CanvasRenderingContext2D
+                private ctx: CanvasRenderingContext2D,
+                private GLOBAL_CURSOR_POS: ICursorPos,
+                private GLOBAL_CANVAS_HTML_NODE: HTMLCanvasElement,
+                private defaultColor: string,
+                private id: number
     ) {
+        this.currentColor = defaultColor;
 
     }
 
-    draw() {
-        ctx.fillStyle = "#fd0202";
+    private checkCursorPos() {
+        const d = Math.hypot(this.GLOBAL_CANVAS_HTML_NODE.offsetLeft + this.originalX - GLOBAL_CURSOR_POS.x,
+            this.GLOBAL_CANVAS_HTML_NODE.offsetTop + this.originalY - GLOBAL_CURSOR_POS.y
+        )
+
+        if (d >= 5 * 5) {
+            this.currentColor = this.defaultColor
+            this.radius = 5
+        } else {
+            this.currentColor = "#114eec"
+            this.radius = 3
+        }
+
+
+    }
+
+    public draw() {
+        this.checkCursorPos();
+        ctx.fillStyle = this.currentColor;
         ctx.beginPath();
         ctx.arc(
             this.originalX,
@@ -51,7 +77,7 @@ const dots: Dot[] = [],
 
 let dotsCount = 10;
 
-for (let y = 1; y < 10; y++) {
+for (let y = 1; y < 6; y++) {
     dotsCount = y * 6;
     for (let i = 0; i < dotsCount; i++) {
         const distanceFromCenter = dotsCount * 2
@@ -62,13 +88,39 @@ for (let y = 1; y < 10; y++) {
             getPos('sin'),
             getPos('cos'),
             5,
-            ctx
+            ctx,
+            GLOBAL_CURSOR_POS,
+            canvasHtmlNode,
+            "#fd0202",
+            dots.length
+        ))
+    }
+}
+
+for (let y = 7; y < 10; y++) {
+    dotsCount = y * 6;
+    for (let i = 0; i < dotsCount; i++) {
+        const distanceFromCenter = dotsCount * 2
+        const getPos = (mathMethod: ('sin' | 'cos')): number =>
+            center + Math[mathMethod](i * Math.PI / (dotsCount / 2)) * distanceFromCenter
+
+        dots.push(new Dot(
+            getPos('sin'),
+            getPos('cos'),
+            5,
+            ctx,
+            GLOBAL_CURSOR_POS,
+            canvasHtmlNode,
+            "#030303",
+            dots.length
         ))
     }
 }
 
 
+mainDraw();
 function mainDraw() {
+    requestAnimationFrame(mainDraw)
     ctx.clearRect(0, 0, canvasWidth, canvasHeight);
 
     // background
@@ -93,7 +145,7 @@ function mainDraw() {
     dots.forEach(el => el.draw())
 }
 
-requestAnimationFrame(mainDraw)
+
 
 
 
